@@ -33,8 +33,11 @@ This document provides the infortation required to succesfully pursue the MSP pr
       the following criteria:
 
   -- Correctness:
+  
   --- Correct (they come to the same conclusions)
+
   --- Unclear (different conclusions but original does not seem incorrect)
+
   --- Full disagreement (the "first assessor(s)" missed something or made
         a mistake)
         In case everything is correct, no other actions have to be taken and both first
