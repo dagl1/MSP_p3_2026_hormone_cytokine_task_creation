@@ -2,9 +2,9 @@
 
 This document provides the infortation required to succesfully pursue the MSP project and therefore should be read carefully. While most decisions in how you go about this are your own, some project/managerial requirements exist from my end, namely:
 
-    - All group members must create a github account and install git or Github Desktop and become collaborators to this repository. **All changes you make during the day should be committed and pushed to the repository!** This will ensure both a paper-trail of your contributions and allows your research to remain easily identifyable; increasing the usefulness of the work you will do. See [[Setting up and using Git]] for a tutorial on how to do this.
+- All group members must create a github account and install git or Github Desktop and become collaborators to this repository. **All changes you make during the day should be committed and pushed to the repository!** This will ensure both a paper-trail of your contributions and allows your research to remain easily identifyable; increasing the usefulness of the work you will do. See [[Setting up and using Git]] for a tutorial on how to do this.
 
-    - Any evidence identified from literature/schematic pictures, should be documented
+- Any evidence identified from literature/schematic pictures, should be documented
       **verbatum**: this means that for the documentation on the Github per
       cytokine/hormone, you provide the sources, and literal text or pictures to
       support your case. Of course in the report you must reference + summarize in your
@@ -15,7 +15,7 @@ This document provides the infortation required to succesfully pursue the MSP pr
       [[Example Case]] for an example of how to approach this, as well as how to
       formulate the actual ouput.
 
-    - While I think these tasks can be tackled individually, it is up to you whether you
+- While I think these tasks can be tackled individually, it is up to you whether you
       want to do so or go after these task in larger groups, all evidence must be
       reviewed by at least a second assessor that was not involved in the original task
       construction (by the first assessor(s)).  Second/third assessor will be working on
@@ -27,13 +27,12 @@ This document provides the infortation required to succesfully pursue the MSP pr
       indicate your involvement and sign-off. Make sure that in your commit messages for
       changes to git, if working in a group, you indicate all contributors' names (even
       if they did not commit/push anything themselves).
-
       Assessment is based on the provided literature (and potentially some extra
       googling, but they should be able to identify all information from the references
       and verbatum documentation provided). They will then provide their assessment of
       the following criteria:
 
-      -- Correctness:
+  -- Correctness:
         --- Correct (they come to the same conclusions)
         --- Unclear (different conclusions but original does not seem incorrect)
         --- Full disagreement (the "first assessor(s)" missed something or made
