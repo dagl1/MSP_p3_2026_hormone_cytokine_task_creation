@@ -33,9 +33,9 @@ This document provides the infortation required to succesfully pursue the MSP pr
       the following criteria:
 
   -- Correctness:
-        --- Correct (they come to the same conclusions)
-        --- Unclear (different conclusions but original does not seem incorrect)
-        --- Full disagreement (the "first assessor(s)" missed something or made
+  --- Correct (they come to the same conclusions)
+  --- Unclear (different conclusions but original does not seem incorrect)
+  --- Full disagreement (the "first assessor(s)" missed something or made
         a mistake)
         In case everything is correct, no other actions have to be taken and both first
         and second assessor can continue with another task. When there is disagreement
@@ -53,12 +53,12 @@ This document provides the infortation required to succesfully pursue the MSP pr
         second assessor is responsible for providing in-depth commentary on what needs
         to be changed, and the first assessor(s) will take this to continue and improve
         their work.
-    -- Documentation: 
-        --- Fully documented and clearly/logically summarised (including table of
+  -- Documentation: 
+  --- Fully documented and clearly/logically summarised (including table of
         reactions, genes involved, and numbers refering to the verbatum text from
         literature somewhere else in the document).
-        --- Fully documented but difficult to navigate all relevant information
-        --- Not all information was present, or logical leaps in how one piece of
+  --- Fully documented but difficult to navigate all relevant information
+  --- Not all information was present, or logical leaps in how one piece of
         evidence leads to another
         --- Mostly or entirely lacking 
         In case everything is fully documented and logically structured, no changes are
