@@ -1,8 +1,69 @@
 # Creating cytokine and peptide hormone-releasal metabolic tasks
 
-This document provides the infortation required to succesfully pursue the MSP project and therefore should be read carefully. While most decisions in how you go about this are your own, some project/managerial requirements exist from my end, namely:
+This document provides the infortation required to succesfully pursue the MSP project and therefore should be read carefully. 
+Following this document will hopefully ensure that you can deliver high quality research
+that you can look back upon fondly and show others as part of your academic portfolio.
 
-- All group members must create a github account and install git or Github Desktop and become collaborators to this repository. **All changes you make during the day should be committed and pushed to the repository!** This will ensure both a paper-trail of your contributions and allows your research to remain easily identifyable; increasing the usefulness of the work you will do. See [[Setting up and using Git]] for a tutorial on how to do this.
+---
+### Table of contents
+
+- [Requirements](#project-requirements)
+  - [Git usage](#git-usage) (see [Setting up & using Git](#setting-up-&-using-git) as
+    well)
+  - [Documentation](#documentation-procedure)
+  - [Quality assessment](#quality-assessment-procedure)
+- [Setting up & using Git](#setting-up-&-using-git)
+  - [How to use Git](#using-git)
+    - [Git bash](#git-bash)
+    - [Github Desktop](#github-desktop)
+- [Choosing a task/project management](#project-management)
+  - [First assessor](#first-assessor)
+    - [Becoming first assessor](#becoming-first-assessor)
+    - [Ready for review](#ready-for-review)
+    - [Additional changes](#additional-changes)
+    - [Signing off](#signing-off)
+  - [Second assessor](#second-assessor)
+    - [Being called for review](#Called-for-review)
+    - [Providing assessment](#Providing-assessent)
+    - [Checking changes](#checking-changes)
+    - [Signing off as second assessor](#signing-off-as-second-assessor)
+- [Example Case](#example-case)
+  - [Taking the task](#taking-the-case)
+  - [Finding appropriate literature](#finding-appropriate-literature)
+  - [Documenting the evidence](#documenting-the-evidence)
+  - [Calling for review](#calling-for-review)
+  - [Performing review assessment](#performing-review-assessment)
+  - [Making changes](#making-changes)
+  - [Asessing the changes](#assessing-the-changes)
+  - [Signing off the task](#signing-off-the-task)
+- [Report/presentation](#report-presentation)
+  - [Report](#report)
+    - [What should it include](#what-should-the-report-include)
+    - [Writing tips](#writing-tips)
+    - [Feedback](#report-feedback)
+  - [Presentation](#presentation)
+    - [Organising the presentation](#organising-the-presentation)
+    - [Presentation tips](#presentation-tips)
+- [Problems](#problems)
+
+---
+
+## Project requirements
+
+Please adhere to the following manegerial requirements to make the project work
+smoothly, speedily, and hopefully without problems:
+
+
+### Git usage
+
+- All group members must create a github account and install git or Github Desktop and 
+    become collaborators to this repository. **All changes you make during the day
+    should be committed and pushed to the repository!** This will ensure both a paper-trail 
+    of your contributions and allows your research to remain easily identifyable; increasing 
+    the usefulness of the work you will do. See [[Setting up and using Git]] for a
+    tutorial on how to do this.
+
+### Documentation procedure
 
 - Any evidence identified from literature/schematic pictures, should be documented
       **verbatum**: this means that for the documentation on the Github per
@@ -14,6 +75,8 @@ This document provides the infortation required to succesfully pursue the MSP pr
       case you might interpret literature differently from me and your peers). See
       [[Example Case]] for an example of how to approach this, as well as how to
       formulate the actual ouput.
+
+### Quality assessment procedure
 
 - While I think these tasks can be tackled individually, it is up to you whether you
       want to do so or go after these task in larger groups, all evidence must be
@@ -32,13 +95,13 @@ This document provides the infortation required to succesfully pursue the MSP pr
       and verbatum documentation provided). They will then provide their assessment of
       the following criteria:
 
-  -- Correctness:
+-- Correctness:
   
-  --- Correct (they come to the same conclusions)
+--- Correct (they come to the same conclusions)
 
-  --- Unclear (different conclusions but original does not seem incorrect)
+--- Unclear (different conclusions but original does not seem incorrect)
 
-  --- Full disagreement (the "first assessor(s)" missed something or made
+--- Full disagreement (the "first assessor(s)" missed something or made
         a mistake)
         In case everything is correct, no other actions have to be taken and both first
         and second assessor can continue with another task. When there is disagreement
@@ -56,12 +119,12 @@ This document provides the infortation required to succesfully pursue the MSP pr
         second assessor is responsible for providing in-depth commentary on what needs
         to be changed, and the first assessor(s) will take this to continue and improve
         their work.
-  -- Documentation: 
-  --- Fully documented and clearly/logically summarised (including table of
+-- Documentation: 
+--- Fully documented and clearly/logically summarised (including table of
         reactions, genes involved, and numbers refering to the verbatum text from
         literature somewhere else in the document).
-  --- Fully documented but difficult to navigate all relevant information
-  --- Not all information was present, or logical leaps in how one piece of
+--- Fully documented but difficult to navigate all relevant information
+--- Not all information was present, or logical leaps in how one piece of
         evidence leads to another
         --- Mostly or entirely lacking 
         In case everything is fully documented and logically structured, no changes are
@@ -78,7 +141,3 @@ This document provides the infortation required to succesfully pursue the MSP pr
         Case]], provide written feedback to first assessors to help them on their way to
         fully document whatever is necesary.
 
-
-    [[Example Case]]
-    [[Setting up and using Git]]
-    [[Project management and sign-off]]
