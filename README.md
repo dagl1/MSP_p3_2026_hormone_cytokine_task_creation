@@ -150,7 +150,7 @@ programming/software projects where multiple people work together and might all 
 similar code/files, this became crucial. See this (somewhat not-serious video) that
 explains how useful this was: 
 
-[![Video](https://www.youtube.com/watch?v=iaEnUXtiGsE/8.jpg)](https://www.youtube.com/watch?v=iaEnUXtiGsE)
+[![Video](https://i3.ytimg.com/vi/iaEnUXtiGsE/maxresdefault.jpg)](https://www.youtube.com/watch?v=iaEnUXtiGsE)
 
 ### Installing git
 
