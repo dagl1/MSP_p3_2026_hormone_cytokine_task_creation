@@ -150,9 +150,7 @@ programming/software projects where multiple people work together and might all 
 similar code/files, this became crucial. See this (somewhat not-serious video) that
 explains how useful this was: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=iaEnUXtiGsE" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video](https://www.youtube.com/watch?v=iaEnUXtiGsE/8.jpg)](https://www.youtube.com/watch?v=iaEnUXtiGsE)
 
 ### Installing git
 
