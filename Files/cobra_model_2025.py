@@ -13,9 +13,11 @@ Description:  To explore changes in the excretion of signaling peptides by the h
 import sys
 import os 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.cobrapy_fork import io
+from cobrapy import io
+#from src.cobrapy_fork import io
 import pandas as pd
-from src.cobrapy_fork import Reaction, Metabolite, Gene
+from cobrapy import Reaction, Metabolite, Gene
+#from src.cobrapy_fork import Reaction, Metabolite, Gene
 
 
 
