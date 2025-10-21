@@ -144,7 +144,15 @@ to help them on their way to fully document whatever is necessary.
 ---
 
 ## Setting up and using Git
-Git is the most-used type of version control (an ability to
+Git is the most-used type of version control (the ability to see previous versions, and
+to "go back" to them without necessarily losing other progress). Especially in
+programming/software projects where multiple people work together and might all edit
+similar code/files, this became crucial. See this (somewhat not-serious video) that
+explains how useful this was: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=iaEnUXtiGsE" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Installing git
 
