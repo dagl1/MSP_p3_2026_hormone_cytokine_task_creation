@@ -154,5 +154,12 @@ explains how useful this was:
 
 ### Installing git
 
+If you are a Linux user, I assume you can follow the instructions [!here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git); similarly for curl (which you *might* need). 
+
+#### Windows
+
+Installing with 
+
+
 ### How to use git
 
