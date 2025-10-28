@@ -152,13 +152,16 @@ explains how useful this was:
 
 [![Video](https://i3.ytimg.com/vi/iaEnUXtiGsE/maxresdefault.jpg)](https://www.youtube.com/watch?v=iaEnUXtiGsE)
 
-### Installing git
+### Installing Git
 
-If you are a Linux user, I assume you can follow the instructions [!here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git); similarly for curl (which you *might* need). 
+If you are a Linux user, I assume you can follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
 
 #### Windows
 
-Installing with 
+Installing Git on Windows is straightforward: 
+ - Download the latest version of *Git for Windows* [here](https://gitforwindows.org)
+ - Follow the installer instructions, and if given the option, choose to use Git Bash instead of the standard Git Windows Command Prompt.
+ - After installation is complete, verify that it is working by opening Git Bash and typing `git --version`; you should see `git version 2.45.1.windows.1` or something similar.
 
 
 ### How to use git
