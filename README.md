@@ -152,6 +152,13 @@ explains how useful this was:
 
 [![Video](https://i3.ytimg.com/vi/iaEnUXtiGsE/maxresdefault.jpg)](https://www.youtube.com/watch?v=iaEnUXtiGsE)
 
+### Create a Github account 
+
+- Follow the instructions [here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+(I recommend using your personal email, as your university email will eventually 
+become inaccessible).
+- Become collaborator 
+
 ### Installing Git
 
 If you are a Linux user, I assume you can follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
@@ -163,6 +170,14 @@ Installing Git on Windows is straightforward:
  - Follow the installer instructions, and if given the option, choose to use Git Bash instead of the standard Git Windows Command Prompt.
  - After installation is complete, verify that it is working by opening Git Bash and typing `git --version`; you should see `git version 2.45.1.windows.1` or something similar.
 
+ (Optionally) If you rather use a GUI instead of having to use the command line, you can
+ install Github Desktop - *in addition to Git, **not** as a substitute*; do note that
+ while this is easier 95% of the time you might run into an issue and will require Git 
+ Bash, and learning the few Git commands you need won't hurt you (and is valuable 
+ in many settings).
+ - https://desktop.github.com/download/
+ - Follow the setup instructions
+ - Login to your Github 
 
 ### How to use git
 
