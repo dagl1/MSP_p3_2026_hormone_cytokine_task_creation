@@ -179,5 +179,26 @@ Installing Git on Windows is straightforward:
  - Follow the setup instructions
  - Login to your Github 
 
-### How to use git
+#### Mac 
+
+
+
+### How to use Git
+
+The way of using Git (regarldless of whether you are using Github Desktop, or Git from
+command-line interfaces) is to "fetch" (find new changes), "pull" (copy those changes to
+your own device), and then after you make changes, you "push" (add changes the central
+directory). In this manner, everyone has a central repository, but can make changes
+independelty. When you and someone else make changes to the same file, you will be asked
+to make a concious decision on how to "merge" those changes. In addition there will be a
+complete history of all changes you all make to each file.
+
+
+### Git Bash
+
+ - At the start of the day, 
+
+### Using git daily
+
+ - At the start of the day, 
 
