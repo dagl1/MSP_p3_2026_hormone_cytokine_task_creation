@@ -182,6 +182,10 @@ Installing Git on Windows is straightforward:
 #### Mac 
 
 
+### Setting it up
+
+Once you have it all installed, it is time to down
+
 
 ### How to use Git
 
@@ -202,3 +206,19 @@ complete history of all changes you all make to each file.
 
  - At the start of the day, 
 
+
+## Example Case
+
+Below is an example of how a cas
+
+### 
+
+- [Example Case](#example-case)
+  - [Taking the task](#taking-the-case)
+  - [Finding appropriate literature](#finding-appropriate-literature)
+  - [Documenting the evidence](#documenting-the-evidence)
+  - [Calling for review](#calling-for-review)
+  - [Performing review assessment](#performing-review-assessment)
+  - [Making changes](#making-changes)
+  - [Asessing the changes](#assessing-the-changes)
+  - [Signing off the task](#signing-off-the-task)
