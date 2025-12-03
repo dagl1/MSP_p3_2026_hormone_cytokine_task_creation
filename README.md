@@ -215,13 +215,93 @@ Below is an example of how a cas
 
 - [Example Case](#example-case)
   - [Taking the task](#taking-the-case)
+    On the following [spreadsheet](https://docs.google.com/spreadsheets/d/1_SG6BUYSQPkR_8MzOA8YLUAw2p9PgF1CSNdOy6dspm4/edit?usp=sharing) we can find the tasks, and their status.
+    First you check the list and find a peptide hormone or cytokine that you are
+    interested in. A task has a status and it should not be taken by anyone. Select that
+    you are working by writing "First assessment (inital, lastname" in the Active/Stage
+    column. Put your name (or names in case you are doing this as a group), in the
+    "First assessor" column. 
+    
+    Now create a folder on your computer, in your *cloned* and *pulled* git directory, in the Tasks folder,
+    here we will work on Task 701, insulin synthesis, so inside Tasks I added
+    "Task_701_insulin_synthesis". I fill it with copies of the three files in the
+    "Current_files" folder (remember to copy, not remove)! We then create two Word (or
+    other text-related files), the main literature file: Insulin_synthesis_task_701.docx
+    & the shortened notes file: Short_notes_Task_701_insulin_synthesis.docx. As the main
+    literature file can become quite large (as you will see), the short notes file
+    is there to write down any of the most important things to consider (such as some
+    things we aren't very sure about, or that should maybe in the future be further
+    explored).
+
   - [Finding appropriate literature](#finding-appropriate-literature)
+      Now we need go about finding appropriate literature, which starts with finding the
+      gene of the actual pre-pro-insulin; subsequently it's time to start reading some
+      articles on the biosynthesis and processing. At this stage it is reccomended to
+      read/skim a few different (review) articles to get a bit of an overview (one might go
+      into more detail than others). Another important thing to not forget is looking up
+      pictures on google images: often schematic overviews provide additional information
+      which we can then later on look into. Be mindful of any mentions of genes and
+      processes involved, as we will need to collate them in their entirety.
+      
+      Please see the case report I prepared in Task_701_insulin_synthesis, go through it
+      carefully. I wrote it not entirely as I would like to see it from you, some of the
+      order and overall flow is not in logical order for someone else to read in the
+      future. However this is the order by which I found things, and hope to show how I
+      often missed things which when reading/looking up other articles then came to
+      light.
+
   - [Documenting the evidence](#documenting-the-evidence)
+      You will then search, puzzle, and document out the case, as well as creating the
+      files containing the metabolites and reactions. In case there are any useful (used
+      by other groups, such as general pathways) things, add their GPRs directly to the
+      GPR sheet in the same spreadsheet.
+      
   - [Calling for review](#calling-for-review)
+     When you feel like you are done, upload all the files by perfomring the following
+     git commands (if you added your files in your git directory): 
+     ``` bash
+
+     git add .
+     git commit -m "feat(task 701): added first assessment of task 701"
+     git pull
+     git push
+     ```
+     ```
+     ``` 
+
+     Then we change the spreadsheet (and possibly say something in the WhatsApp group,
+     or whoever is next to you, in case you are working at the same location). Put your
+     status to "Awaiting second assessor", possibly take a break, but don't wait just on
+     the second assessor (that might take a while) and move on to the next task. Or in
+     case another group is awaiting assessment, you can take that task.
+     
   - [Performing review assessment](#performing-review-assessment)
+    Now you are reviewing another group's or person's work; change the status of the
+    task to "Second assessor (<your name>)" and; open up git bash and pull
+    the changes:
+     ``` bash
+     git pull
+     ```
+    You should now see their task folder and documentation appear on your own computer
+    and you go through their documentation. 
+    Check if you follow all the steps based on the evidence they
+    provided, did they miss anything, are there any leaps in logic? Are there things
+    that you know (from your own task) that might have not been considered in enough
+    detail? 
+
+    Based on the quality of the work (interpretation, completeness), and the
+    documentation (logical, no leaps, easily followable), you then write your review in
+    a document called "peer_review". Write out clearly what needs to changed or looked
+    back into and upload that to the git in the same way as before. That way they can
+    address each point, possibly argue with you and summarise the changes they make to
+    the documents. Remember to also check their metabolites and reactions files, as
+    eventually my scripts will look into those to grab all the things you defined
+    together. 
+
+    This is a collaborative effort 
+
   - [Making changes](#making-changes)
   - [Asessing the changes](#assessing-the-changes)
   - [Signing off the task](#signing-off-the-task)
 
-@295SPBJW-González-Arrué-Etal-2023
 
