@@ -132,13 +132,13 @@ that you can look back upon fondly and show others as part of your academic port
     understanding of git will likely help you in your future). 
 
     - [many good links, some included later](https://gist.github.com/jaseemabid/1321592)
-    - [a beginner's guide to git commits](https://medium.com/@zacyap/a-beginners-guide-to-git-commits-34185ed2ed8d), 
+    - [a beginner's guide to git commits](https://medium.com/@zacyap/a-beginners-guide-to-git-commits-34185ed2ed8d) 
     - [full git usage guide, this is linking to the saving changes part](https://www.atlassian.com/git/tutorials/saving-changes)
     - [w3schools guide if you prefer their style](https://www.w3schools.com/git/git_commit.asp)
     - [common github errors and solutions](https://medium.com/devops-ai-decoded/common-github-errors-and-solutions-cd464f0db2b5)
     - [often encountered errors](https://graphite.com/guides/debugging-common-git-errors)
     - [git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
-    - [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html)    [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html), 
+    - [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html)     
     - [simpler git](https://nfarina.com/post/9868516270/git-is-simpler) 
     - [git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy).
 
