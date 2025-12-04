@@ -42,7 +42,7 @@ that you can look back upon fondly and show others as part of your academic port
 ---
 
 ## Useful resources
-  - [Google Scholar](#https://scholar.google.com) for finding articles (I generally
+  - [Google Scholar](https://scholar.google.com) for finding articles (I generally
     prefer googling keywords such as "SEC61 signal peptidase pre-pro-insulin". But after
     finding an article, it is generally interesting to see if any articles that were
     published later, and reference this article, add anything to the topic. New
@@ -52,7 +52,7 @@ that you can look back upon fondly and show others as part of your academic port
     alternative pathway) is also involved, we might look into the articles that cited
     the article from 2019 by searching for this article in google scholar and clicking:
     "cited by".
-  - [Metabolic Atlas](#https://metabolicatlas.org) is an online representation of
+  - [Metabolic Atlas](https://metabolicatlas.org) is an online representation of
     Human-GEM, the base metabolic model that we utilise here at MaCSBio. It provides
     some functionality for searching for reactions and genes (remember to search in
     Human-GEM and not in the mouse or fruitfly, as those might not be exactly the same).
@@ -62,18 +62,18 @@ that you can look back upon fondly and show others as part of your academic port
     Currently Metabolic Atlas is presenting Human-GEM 1.19, while we use version 1.17
     with some small in-house modifications; it likely is fine to look up these here.
     Altenatively you can find the Human-GEM 1.17 excel file in the current repository.
-  - [Uniprot](#https://www.uniprot.org) is a database where one can look up information
+  - [Uniprot](https://www.uniprot.org) is a database where one can look up information
     on proteins/genes, including the amino acid (AA) sequence. However the identifiers
     used by uniprot do not match the ones of the model (those eventually need to be in
     Ensembl format). Personally I search Ensembl first, the use uniprot for AA sequences
     and sometimes some additional information. 
-  - [Ensembl](#https://www.ensembl.org/index.html) This is a huge database where one can
+  - [Ensembl](https://www.ensembl.org/index.html) This is a huge database where one can
     find genes, their location on the genome, and many many other things. As you will
     see in the [Example Case](#example-case), I use it extensively to find the
     gene-identifiers which is what the model will eventually use, and most
     transcriptomics data (which we use in the [Metabolic Task
-    Analysis](#metabolic-task-analysis) explained below) uses these identifiers too.
-  - [Protein-atlas](#https://www.proteinatlas.org) Once you have a candidate gene, you
+    Analysis](metabolic-task-analysis) explained below) uses these identifiers too.
+  - [Protein-atlas](https://www.proteinatlas.org) Once you have a candidate gene, you
     can find a lot of additional information on it here. Search for the gene and check
     for instance "tissues" or "cell lines" to find the expression pattern of the
     gene/protein you are looking for. This can be useful if you are wondering if a 
@@ -85,7 +85,7 @@ that you can look back upon fondly and show others as part of your academic port
     course such data isn't infallible and so if there are articles showing protein X's
     involvement directly, we might have to re-evaluate (or mention this discrepancy in
     the short_notes; see [Documenting the evidence](#documenting-the-evidence)).
-  - [STRING](#https://string-db.org) is a database which collates evidence on
+  - [STRING](https://string-db.org) is a database which collates evidence on
     interactions between proteins and genes. It provides both the strength and type of
     that evidence, for example gene correlations vs experimental evidence proteins are
     interacting with each other. It is very useful - but generally you cannot solely rely
@@ -97,7 +97,7 @@ that you can look back upon fondly and show others as part of your academic port
     at all for a protein to interact with Y and Z, and you cannot find anything about
     protein X directly involved in your process, it is pretty good evidence to not
     include protein X).
-  - [Genecards](#https://www.genecards.org) Another resource with gene information, I
+  - [Genecards](https://www.genecards.org) Another resource with gene information, I
     personally don't find it particularly useful in most cases, although it does have
     intra-cellular localisation of genes (with evidence scores). Typically the
     information is not specific enough, all subunits or paralogs have similar
@@ -105,20 +105,20 @@ that you can look back upon fondly and show others as part of your academic port
     this is worth looking as there migth be some additional information there - I very
     much recommend looking through it once to see what it could offer or provide
     information on.
-  - [Metacyc](#https://metacyc.org) has information on known metabolic pathways, which
+  - [Metacyc](https://metacyc.org) has information on known metabolic pathways, which
     might not be as relevant for most tasks you are looking into, but for instance if
     anything like redox signalling or some type of waste products are involved, this
     does become (potentially) interesting. It used to be free, but a year ago it
     suddenly became the case that one had a limited amount of look-ups. Still, it is
     comprehensive website and is good to know about.
 
-  - [Pubchem](#https://pubchem.ncbi.nlm.nih.gov) This website contains information on
+  - [Pubchem](https://pubchem.ncbi.nlm.nih.gov) This website contains information on
     compounds and chemicals (but not really peptides). If you need to search for a
     metabolite and add its SMILES (a way of representing its chemical structure in text
     form), this is the place. Other than that, you won't really be using it, but knowing
     it exists is going to be useful in any case.
 
-  - [BRENDA](#https://www.brenda-enzymes.org) You might at some point need to look-up
+  - [BRENDA](https://www.brenda-enzymes.org) You might at some point need to look-up
     specific enzymes or their activity, this would be the place. I honestly doubt you
     will ever have to go here - then again, it might be good to know that this exists.
 
@@ -131,16 +131,16 @@ that you can look back upon fondly and show others as part of your academic port
     you (even if it takes a little bit, putting in the effort to have a basic
     understanding of git will likely help you in your future). 
 
-    [many good links, some included later](#https://gist.github.com/jaseemabid/1321592), 
-    [a beginner's guide to git commits](#https://medium.com/@zacyap/a-beginners-guide-to-git-commits-34185ed2ed8d), 
-    [full git usage guide, this is linking to the saving changes part](#https://www.atlassian.com/git/tutorials/saving-changes), 
-    [w3schools guide if you prefer their style](#https://www.w3schools.com/git/git_commit.asp), 
-    [common github errors and solutions](#https://medium.com/devops-ai-decoded/common-github-errors-and-solutions-cd464f0db2b5),
-    [often encountered errors](#https://graphite.com/guides/debugging-common-git-errors),
-    [git cheatsheet](#https://education.github.com/git-cheat-sheet-education.pdf), 
-    [visual guide](#https://marklodato.github.io/visual-git-guide/index-en.html), 
-    [simpler git](#https://nfarina.com/post/9868516270/git-is-simpler) 
-    [git for the lazy](#https://wiki.spheredev.org/index.php/Git_for_the_lazy).
+    [many good links, some included later](https://gist.github.com/jaseemabid/1321592), 
+    [a beginner's guide to git commits](https://medium.com/@zacyap/a-beginners-guide-to-git-commits-34185ed2ed8d), 
+    [full git usage guide, this is linking to the saving changes part](https://www.atlassian.com/git/tutorials/saving-changes), 
+    [w3schools guide if you prefer their style](https://www.w3schools.com/git/git_commit.asp), 
+    [common github errors and solutions](https://medium.com/devops-ai-decoded/common-github-errors-and-solutions-cd464f0db2b5),
+    [often encountered errors](https://graphite.com/guides/debugging-common-git-errors),
+    [git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf), 
+    [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html), 
+    [simpler git](https://nfarina.com/post/9868516270/git-is-simpler) 
+    [git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy).
 
 
 ## Metabolic Task Analysis
@@ -193,7 +193,8 @@ specific cleavage enzyme, which would lead to build-up of unfinished pro-insulin
 is linked to some disease, which we also see in patient 2". 
 
 Your work will enable this analysis by providing the involved enzymes in these
-processes! The tasks that we make at the end
+processes! The tasks that we make at the end will be read by my algorithm to automatically 
+quantifiy different samples' activity for each task!
 
 ## Project requirements
 
@@ -472,6 +473,14 @@ IGNORE the old_genes and old_GPR rules files, they are unnecessary for you at th
 The short notes should include all the things we are unsure about, were necessary to note, or might still require further looking into: 
 
 <img width="852" height="667" alt="image" src="https://github.com/user-attachments/assets/0b763a68-a164-4123-9e7b-dcc9c3f82428" />
+
+Of course we also have to add the actual task to the finalised tasks sheet in the spreadsheet, which should be in Steady State (meaning the model must be able to convert all metabolites given the reactions you added, and the inputs and outputs provided as the Task, see [Metabolic Task Analysis](#metabolic-task-analysis)). 
+
+<img width="1522" height="1100" alt="image" src="https://github.com/user-attachments/assets/83afccb8-1d32-4684-9a62-0c709d5b98a5" />
+
+"in lb" and "in ub" refer to the amount of inputs (in your case these will always be the same number, if 2 CO2 goes in, then in lb and ub will both be 2)
+"out lb" and "out ub" then refer to the outputs.
+We wrote this task in the case document already, but here it is formalised so that my algorithm can read this and automatically analyse the task!
 
 Then we appear to be done, and we let the second assessor check our work. Meanwhile you can take a quick break, or continue with a new task.
       
