@@ -131,16 +131,16 @@ that you can look back upon fondly and show others as part of your academic port
     you (even if it takes a little bit, putting in the effort to have a basic
     understanding of git will likely help you in your future). 
 
-    [many good links, some included later](https://gist.github.com/jaseemabid/1321592), 
-    [a beginner's guide to git commits](https://medium.com/@zacyap/a-beginners-guide-to-git-commits-34185ed2ed8d), 
-    [full git usage guide, this is linking to the saving changes part](https://www.atlassian.com/git/tutorials/saving-changes), 
-    [w3schools guide if you prefer their style](https://www.w3schools.com/git/git_commit.asp), 
-    [common github errors and solutions](https://medium.com/devops-ai-decoded/common-github-errors-and-solutions-cd464f0db2b5),
-    [often encountered errors](https://graphite.com/guides/debugging-common-git-errors),
-    [git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf), 
-    [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html), 
-    [simpler git](https://nfarina.com/post/9868516270/git-is-simpler) 
-    [git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy).
+    - [many good links, some included later](https://gist.github.com/jaseemabid/1321592)
+    - [a beginner's guide to git commits](https://medium.com/@zacyap/a-beginners-guide-to-git-commits-34185ed2ed8d), 
+    - [full git usage guide, this is linking to the saving changes part](https://www.atlassian.com/git/tutorials/saving-changes)
+    - [w3schools guide if you prefer their style](https://www.w3schools.com/git/git_commit.asp)
+    - [common github errors and solutions](https://medium.com/devops-ai-decoded/common-github-errors-and-solutions-cd464f0db2b5)
+    - [often encountered errors](https://graphite.com/guides/debugging-common-git-errors)
+    - [git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+    - [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html)    [visual guide](https://marklodato.github.io/visual-git-guide/index-en.html), 
+    - [simpler git](https://nfarina.com/post/9868516270/git-is-simpler) 
+    - [git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy).
 
 
 ## Metabolic Task Analysis
@@ -454,7 +454,6 @@ Each reaction has an (unique) ID, a name, a subsystem (try sticking with a few o
 
 The reactions should also have the GPR rule written with gene symbols, and all the way at the end the name of the GPR rule (that we can lookup in the larger GPR rule spreadsheet if necessary).
 Similarly for the metabolite_additions file, you grab an empty copy and put it in the task folder, then open it and add the metabolties as we did above. 
-
 
 
  ### Documenting the evidence
