@@ -218,8 +218,8 @@ complete history of all changes you all make to each file.
     you are working by writing "First assessment (inital, lastname" in the Active/Stage
     column. Put your name (or names in case you are doing this as a group), in the
     "First assessor" column. 
-<img width="958" height="184" alt="image" src="https://github.com/user-attachments/assets/c33213b9-b311-42c4-8a3f-f62edb6391bb" />
-<img width="975" height="127" alt="image" src="https://github.com/user-attachments/assets/85232abd-9418-4494-85bb-be47bb6812d4" />
+<img width="478" height="92" alt="image" src="https://github.com/user-attachments/assets/c33213b9-b311-42c4-8a3f-f62edb6391bb" />
+<img width="487" height="123" alt="image" src="https://github.com/user-attachments/assets/85232abd-9418-4494-85bb-be47bb6812d4" />
     
    Now create a folder on your computer, in your *cloned* and *pulled* git directory, in the Tasks folder,
     here we will work on Task 701, insulin synthesis, so inside Tasks I added
@@ -252,7 +252,40 @@ complete history of all changes you all make to each file.
       often missed things which when reading/looking up other articles then came to
       light.
 
-  
+  There are some points that aren't inside the document itself (but please first read the insulin case document and short_notes, as otherwise this might be a little vague) which are described here:
+  inside the metabolites_additions file we need add the following parts.
+  <img width="975" height="259" alt="image" src="https://github.com/user-attachments/assets/d6aa5789-694e-48f9-b042-9d8058a654ce" />
+1.	Gene-pseudo-metabolites are our stand in metabolites for genes, and thus have an AA sequence, and uniport/ensemble IDs
+https://www.uniprot.org/uniprotkb/P01308/entry
+<img width="975" height="284" alt="image" src="https://github.com/user-attachments/assets/6f8bf3cb-5bd2-403d-845d-83af75113aa2" />
+
+2.	Because the signal peptide is cleaved from insulin, we take that sequence ; EDIT: in the actual file I called it ins-signal-peptide, as other peptides create other/different signal peptides!
+3.	ERO1-4SH is an enzyme metabolite that is taking up and giving protons, however since this is a protein complex and overall AA sequences and actual atoms don’t match, we therefore leave it empty in the metabolite formula department
+<img width="975" height="307" alt="image" src="https://github.com/user-attachments/assets/dc304269-04bc-4ee7-8d71-48e67cc3f211" />
+Insulin and C-peptide themselves have sequences we derived from the original sequence, note that this article indicates that CPE cut off two AA’s and so these are not in the final insulin (the two arginine (R) at position 56)
+<img width="975" height="586" alt="image" src="https://github.com/user-attachments/assets/c5025ac0-87de-4e67-9bc4-7c2cd2c0b721" />
+Finishing it up:
+<img width="975" height="334" alt="image" src="https://github.com/user-attachments/assets/8e636d64-1bc6-46fb-b526-263e7915943d" />
+This way, if I ever decide on adding in the metabolite formulas for these other parts, I can easily find them by their type (mentioned in project_notes), if one would have to add anything else, just put a ; 
+so something like gene-pseudo-metabolite ; “other message”.
+Note that if there’s a metabolite such as ATP or water (or anything else that is actually a metabolite and not a peptide), try finding the SMILES on pubchem (and put it in metabolite formula), see this example of ATP: 
+https://pubchem.ncbi.nlm.nih.gov/compound/5957 
+<img width="975" height="138" alt="image" src="https://github.com/user-attachments/assets/e6c4a0f2-134a-46ad-9798-777a023cbc28" />
+C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N 
+In that case, please add the link in the project notes 
+While not task-specific, since some steps (SRP, SPC, COPII, and Clathrin-mediated transport) will be often used (even if the specific subunits won’t all be used), it is nice to have those GPR rules already put in place and updated when in a GPR spreadsheet that everyone can update/use. Here we can see at a glance what the COPII base coat is, and how the insulin-specific (in this case) coat differs. 
+<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/0323b2a3-0f3c-489e-bc92-6f0c35ed981a" />
+This way we can also easily update the reactions_additions file we add to a task folder (copied from the “current files” folder)
+For the reactions we start at task 701, and reactions will have the ID equal to the task number + 00
+So MAR70100 is the first reaction added in task 701 (note we start at column G  for adding reactions)
+  <img width="975" height="226" alt="image" src="https://github.com/user-attachments/assets/15a106b8-77ff-4b4b-b318-995e9292f528" />
+Each reaction has an (unique) ID, a name, a subsystem (try sticking with a few ones consistently, see the example above), a formula (using the specific notation as above, make sure that each substrate/product has a compartment (e.g. insulin[s], or water[r]). The available compartments are as follows: 
+<img width="975" height="297" alt="image" src="https://github.com/user-attachments/assets/084a8efd-38c2-49a3-bd51-2607bcae9952" />
+
+The reactions should also have the GPR rule written with gene symbols, and all the way at the end the name of the GPR rule (that we can lookup in the larger GPR rule spreadsheet if necessary).
+Similarly for the metabolite_additions file, you grab an empty copy and put it in the task folder, then open it and add the metabolties as we did above. 
+
+
 
  ### Documenting the evidence
    You will then search, puzzle, and document out the case, as well as creating the
@@ -265,7 +298,8 @@ The task documentation (insulin_synthesis_task_701), the metabolites_additions f
 <img width="975" height="161" alt="image" src="https://github.com/user-attachments/assets/ba0c43ef-5223-4d0b-88cc-146ac1db0a1e" />
 IGNORE the old_genes and old_GPR rules files, they are unnecessary for you at this point (the genes I can automatically create from the reactions, and the GPR rules moved to the online spreadsheet)
  The short notes should include all the things we are unsure about, were necessary to note, or might still require further looking into: 
-
+<img width="852" height="667" alt="image" src="https://github.com/user-attachments/assets/0b763a68-a164-4123-9e7b-dcc9c3f82428" />
+Then we appear to be done, and we let the second assessor check our work. Meanwhile you can take a quick break, or continue with a new task.
       
 ### Calling for review
    When you feel like you are done, upload all the files by perfomring the following
