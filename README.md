@@ -210,6 +210,7 @@ complete history of all changes you all make to each file.
 ## Example Case
 
 ### Taking the task
+<img width="975" height="609" alt="image" src="https://github.com/user-attachments/assets/345a038d-9718-421e-9fa2-dca696d5d783" />
 
    On the following [spreadsheet](https://docs.google.com/spreadsheets/d/1_SG6BUYSQPkR_8MzOA8YLUAw2p9PgF1CSNdOy6dspm4/edit?usp=sharing) we can find the tasks, and their status.
     First you check the list and find a peptide hormone or cytokine that you 
@@ -217,6 +218,8 @@ complete history of all changes you all make to each file.
     you are working by writing "First assessment (inital, lastname" in the Active/Stage
     column. Put your name (or names in case you are doing this as a group), in the
     "First assessor" column. 
+<img width="958" height="184" alt="image" src="https://github.com/user-attachments/assets/c33213b9-b311-42c4-8a3f-f62edb6391bb" />
+<img width="975" height="127" alt="image" src="https://github.com/user-attachments/assets/85232abd-9418-4494-85bb-be47bb6812d4" />
     
    Now create a folder on your computer, in your *cloned* and *pulled* git directory, in the Tasks folder,
     here we will work on Task 701, insulin synthesis, so inside Tasks I added
@@ -228,6 +231,9 @@ complete history of all changes you all make to each file.
     is there to write down any of the most important things to consider (such as some
     things we aren't very sure about, or that should maybe in the future be further
     explored).
+<img width="975" height="190" alt="image" src="https://github.com/user-attachments/assets/d5a3c5c7-20ef-4277-adb8-766dcbcb9373" />
+<img width="975" height="112" alt="image" src="https://github.com/user-attachments/assets/2510f15a-42ce-4f49-ac7c-1581543167cd" />
+
 
 ### Finding appropriate literature
    Now we need go about finding appropriate literature, which starts with finding the
@@ -246,11 +252,20 @@ complete history of all changes you all make to each file.
       often missed things which when reading/looking up other articles then came to
       light.
 
+  
+
  ### Documenting the evidence
    You will then search, puzzle, and document out the case, as well as creating the
       files containing the metabolites and reactions. In case there are any useful (used
       by other groups, such as general pathways) things, add their GPRs directly to the
       GPR sheet in the same spreadsheet.
+
+We are then left with a file that should have: 
+The task documentation (insulin_synthesis_task_701), the metabolites_additions file, the reactions_additions file, and the short_notes (short_notes_task_701_insulin_synthesis). 
+<img width="975" height="161" alt="image" src="https://github.com/user-attachments/assets/ba0c43ef-5223-4d0b-88cc-146ac1db0a1e" />
+IGNORE the old_genes and old_GPR rules files, they are unnecessary for you at this point (the genes I can automatically create from the reactions, and the GPR rules moved to the online spreadsheet)
+ The short notes should include all the things we are unsure about, were necessary to note, or might still require further looking into: 
+
       
 ### Calling for review
    When you feel like you are done, upload all the files by perfomring the following
@@ -268,6 +283,8 @@ complete history of all changes you all make to each file.
      status to "Awaiting second assessor", possibly take a break, but don't wait just on
      the second assessor (that might take a while) and move on to the next task. Or in
      case another group is awaiting assessment just like you, you can review their task.
+     <img width="975" height="151" alt="image" src="https://github.com/user-attachments/assets/ee9b47ab-b666-4508-9221-43066dec7542" />
+
      
 ### Performing review assessment
    Now you are reviewing another group's or person's work; change the status of the
@@ -277,6 +294,7 @@ complete history of all changes you all make to each file.
    ``` bash
    git pull
    ```
+<img width="975" height="103" alt="image" src="https://github.com/user-attachments/assets/980af18c-0ab0-42f7-83bc-703bd3634be2" />
 
    You should now see their task folder and documentation appear on your own computer
     and you go through their documentation. 
@@ -309,6 +327,8 @@ complete history of all changes you all make to each file.
    When you are done with the changes, don't forget to add, commit, push the
     peer_review file (and possibly other files you put comments in etc). Then set the
     status to "Awaiting first assessor (second)", and go on with your work!
+    <img width="975" height="115" alt="image" src="https://github.com/user-attachments/assets/16c6158e-f328-4202-b345-85d9cae857ba" />
+
 
 ### Making changes
    Hopefully the other person/group notifies you when they finished your review: put
@@ -319,6 +339,8 @@ complete history of all changes you all make to each file.
     evidence if you are sure of your interpretation, and of course you can argue against
     implementing changes if you believe there is good reason to do so (it taking too
     much effort is *not* a good reason, of course). 
+
+<img width="975" height="102" alt="image" src="https://github.com/user-attachments/assets/4535103c-2d6c-4af6-a2f2-5502af8e470f" />
 
    Implement your changes in the revision files, editing them so that they are a "new"
     final version. Then in a page below their comments in the peer_review file,
@@ -336,7 +358,10 @@ complete history of all changes you all make to each file.
 
 ### Assessing the changes
    Someone or a group made changes, now you go through the usual: git pull, set the
-    status to "Second assessment (<your name>)", and go through them. Most likely (and
+    status to "Second assessment (<your name>)", and go through them.
+    <img width="975" height="107" alt="image" src="https://github.com/user-attachments/assets/d5f5d89d-4da5-4ed1-b426-12d06efd3614" />
+
+  Most likely (and
     hopefully) the changes are all sufficient and you can sign off on this task. Of
     course if this is not the case then the procedure continues: you add more to the
     peer_review document with the changes that still need to made. If there is some
@@ -350,7 +375,10 @@ complete history of all changes you all make to each file.
    The task is done, both sign off, you make sure the task is properly uploaded,
     everything that could go into the sheet (so commonly used GPRs) is added and you
     potentially debrief with other groups/people in case there were valuable things that
-    you learned that might help others as well! Then it's time to continue the work with
+    you learned that might help others as well!
+  <img width="975" height="71" alt="image" src="https://github.com/user-attachments/assets/933e99ba-aed8-4569-92ea-6b54111c6678" />
+ 
+  Then it's time to continue the work with
     another task! Some tasks might be easier as they will be very similar to a
     previously finished task. On the other hand those might become boring, and it could
     be more exciting to identify a completely different biosynthesis pathway, that is up
