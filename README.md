@@ -37,7 +37,7 @@ that you can look back upon fondly and show others as part of your academic port
   - [Calling for review](#calling-for-review)
   - [Performing review assessment](#performing-review-assessment)
   - [Making changes](#making-changes)
-  - [Asessing the changes](#assessing-the-changes)
+  - [Assessing the changes](#assessing-the-changes)
   - [Signing off the task](#signing-off-the-task)
 - [Report/presentation](#report-presentation)
   - [Report](#report)
@@ -197,7 +197,6 @@ independelty. When you and someone else make changes to the same file, you will 
 to make a concious decision on how to "merge" those changes. In addition there will be a
 complete history of all changes you all make to each file.
 
-
 ### Git Bash
 
  - At the start of the day, 
@@ -207,22 +206,19 @@ complete history of all changes you all make to each file.
  - At the start of the day, 
 
 
+
 ## Example Case
 
-Below is an example of how a cas
+### Taking the task
 
-### 
-
-- [Example Case](#example-case)
-  - [Taking the task](#taking-the-case)
-    On the following [spreadsheet](https://docs.google.com/spreadsheets/d/1_SG6BUYSQPkR_8MzOA8YLUAw2p9PgF1CSNdOy6dspm4/edit?usp=sharing) we can find the tasks, and their status.
-    First you check the list and find a peptide hormone or cytokine that you are
+   On the following [spreadsheet](https://docs.google.com/spreadsheets/d/1_SG6BUYSQPkR_8MzOA8YLUAw2p9PgF1CSNdOy6dspm4/edit?usp=sharing) we can find the tasks, and their status.
+    First you check the list and find a peptide hormone or cytokine that you 
     interested in. A task has a status and it should not be taken by anyone. Select that
     you are working by writing "First assessment (inital, lastname" in the Active/Stage
     column. Put your name (or names in case you are doing this as a group), in the
     "First assessor" column. 
     
-    Now create a folder on your computer, in your *cloned* and *pulled* git directory, in the Tasks folder,
+   Now create a folder on your computer, in your *cloned* and *pulled* git directory, in the Tasks folder,
     here we will work on Task 701, insulin synthesis, so inside Tasks I added
     "Task_701_insulin_synthesis". I fill it with copies of the three files in the
     "Current_files" folder (remember to copy, not remove)! We then create two Word (or
@@ -233,9 +229,9 @@ Below is an example of how a cas
     things we aren't very sure about, or that should maybe in the future be further
     explored).
 
-  - [Finding appropriate literature](#finding-appropriate-literature)
-      Now we need go about finding appropriate literature, which starts with finding the
-      gene of the actual pre-pro-insulin; subsequently it's time to start reading some
+### Finding appropriate literature
+   Now we need go about finding appropriate literature, which starts with finding the
+     gene of the actual pre-pro-insulin; subsequently it's time to start reading some
       articles on the biosynthesis and processing. At this stage it is reccomended to
       read/skim a few different (review) articles to get a bit of an overview (one might go
       into more detail than others). Another important thing to not forget is looking up
@@ -243,65 +239,131 @@ Below is an example of how a cas
       which we can then later on look into. Be mindful of any mentions of genes and
       processes involved, as we will need to collate them in their entirety.
       
-      Please see the case report I prepared in Task_701_insulin_synthesis, go through it
+   Please see the case report I prepared in Task_701_insulin_synthesis, go through it
       carefully. I wrote it not entirely as I would like to see it from you, some of the
       order and overall flow is not in logical order for someone else to read in the
       future. However this is the order by which I found things, and hope to show how I
       often missed things which when reading/looking up other articles then came to
       light.
 
-  - [Documenting the evidence](#documenting-the-evidence)
-      You will then search, puzzle, and document out the case, as well as creating the
+ ### Documenting the evidence
+   You will then search, puzzle, and document out the case, as well as creating the
       files containing the metabolites and reactions. In case there are any useful (used
       by other groups, such as general pathways) things, add their GPRs directly to the
       GPR sheet in the same spreadsheet.
       
-  - [Calling for review](#calling-for-review)
-     When you feel like you are done, upload all the files by perfomring the following
+### Calling for review
+   When you feel like you are done, upload all the files by perfomring the following
      git commands (if you added your files in your git directory): 
-     ``` bash
 
-     git add .
-     git commit -m "feat(task 701): added first assessment of task 701"
-     git pull
-     git push
-     ```
-     ```
-     ``` 
+   ``` bash
+   git add .
+   git commit -m "feat(task 701): added first assessment of task 701"
+   git pull
+   git push
+   ```
 
-     Then we change the spreadsheet (and possibly say something in the WhatsApp group,
+   Then we change the spreadsheet (and possibly say something in the WhatsApp group,
      or whoever is next to you, in case you are working at the same location). Put your
      status to "Awaiting second assessor", possibly take a break, but don't wait just on
      the second assessor (that might take a while) and move on to the next task. Or in
-     case another group is awaiting assessment, you can take that task.
+     case another group is awaiting assessment just like you, you can review their task.
      
-  - [Performing review assessment](#performing-review-assessment)
-    Now you are reviewing another group's or person's work; change the status of the
+### Performing review assessment
+   Now you are reviewing another group's or person's work; change the status of the
     task to "Second assessor (<your name>)" and; open up git bash and pull
     the changes:
-     ``` bash
-     git pull
-     ```
-    You should now see their task folder and documentation appear on your own computer
+
+   ``` bash
+   git pull
+   ```
+
+   You should now see their task folder and documentation appear on your own computer
     and you go through their documentation. 
     Check if you follow all the steps based on the evidence they
     provided, did they miss anything, are there any leaps in logic? Are there things
     that you know (from your own task) that might have not been considered in enough
     detail? 
 
-    Based on the quality of the work (interpretation, completeness), and the
+   Based on the quality of the work (interpretation, completeness), and the
     documentation (logical, no leaps, easily followable), you then write your review in
     a document called "peer_review". Write out clearly what needs to changed or looked
     back into and upload that to the git in the same way as before. That way they can
     address each point, possibly argue with you and summarise the changes they make to
-    the documents. Remember to also check their metabolites and reactions files, as
+    the documents. Remember to also check their metabolites_ and reactions_ files, as
     eventually my scripts will look into those to grab all the things you defined
-    together. 
+    together. Of course if it is all great and no changes are necessary, then you can
+    sign-off on this task, and so can they!
 
-    This is a collaborative effort 
+   This is a collaborative effort so try to help each other, have a discussion if
+    things are unclear, or provide some examples of how you would approach the changes
+    you are foreseeing. It is the resposibility of everyone that the quality of the work
+    is good; similarly if you see somehting that could be done easier, or might require
+    everyone to sit together to decide on a particular standard form, then do so! The
+    point of this project, besides getting me valuable cytokine tasks and letting you
+    learn a lot about said tasks, is also for you to get experience working in
+    moderately sized groups! Work together, do this side by side (and hopefully not all
+    from the isolation of your home, although even then you could have a
+    teams/slack/discord sever where you guys can discuss with eachother)!
+    
+   When you are done with the changes, don't forget to add, commit, push the
+    peer_review file (and possibly other files you put comments in etc). Then set the
+    status to "Awaiting first assessor (second)", and go on with your work!
 
-  - [Making changes](#making-changes)
-  - [Asessing the changes](#assessing-the-changes)
-  - [Signing off the task](#signing-off-the-task)
+### Making changes
+   Hopefully the other person/group notifies you when they finished your review: put
+    the status back to "first assessment (<your name>) (second)", copy the documentation
+    files you made in the first round and copy them, adding "revision_1" to them, then
+    open their peer_review document and go through the comments. Make the changes they
+    suggest if you agree, discuss with them if things are unclear, look for more
+    evidence if you are sure of your interpretation, and of course you can argue against
+    implementing changes if you believe there is good reason to do so (it taking too
+    much effort is *not* a good reason, of course). 
+
+   Implement your changes in the revision files, editing them so that they are a "new"
+    final version. Then in a page below their comments in the peer_review file,
+    summarise the changes you made, and adress (rebute) why other changes were not
+    necessary to implement - this is the same procedure as when attempting to publish
+    papers: peer reviewers provide comments, and you make changes and write a rebuttal
+    to go together with your new version. 
+
+   Git add, commit, push the files; set the status to "Awaiting second assessor
+    (second)" and notify them! Preferably it is the same assessor who goes through your
+    work, however if for some reason that cannot happen then with all the available
+    documentation it should be possible for someone else to read your original
+    documentation, the peer_review document, the changes you made, and evaluate it based
+    on those alone!
+
+### Assessing the changes
+   Someone or a group made changes, now you go through the usual: git pull, set the
+    status to "Second assessment (<your name>)", and go through them. Most likely (and
+    hopefully) the changes are all sufficient and you can sign off on this task. Of
+    course if this is not the case then the procedure continues: you add more to the
+    peer_review document with the changes that still need to made. If there is some
+    actual disagreement, you can always discuss with other people or maybe we plan a
+    meeting to discuss it with me (alternatively send me an email or come by my office).
+    Remember, this is not an assessment of you as a person! If it turns out that I
+    prefer the arguments of another group, or you might have missed something, that
+    isn't any problem - the whole point of this is to learn and improve!
+
+### Signing off the task
+   The task is done, both sign off, you make sure the task is properly uploaded,
+    everything that could go into the sheet (so commonly used GPRs) is added and you
+    potentially debrief with other groups/people in case there were valuable things that
+    you learned that might help others as well! Then it's time to continue the work with
+    another task! Some tasks might be easier as they will be very similar to a
+    previously finished task. On the other hand those might become boring, and it could
+    be more exciting to identify a completely different biosynthesis pathway, that is up
+    to you! Also if you performed this as a group, evaluate if it makes sense to keep
+    doing it as a group, or if you can divide into smaller groups to cover more ground!
 
 
+- [Report/presentation](#report-presentation)
+  - [Report](#report)
+    - [What should it include](#what-should-the-report-include)
+    - [Writing tips](#writing-tips)
+    - [Feedback](#report-feedback)
+  - [Presentation](#presentation)
+    - [Organising the presentation](#organising-the-presentation)
+    - [Presentation tips](#presentation-tips)
+- [Problems](#problems)
