@@ -818,7 +818,7 @@ somewhat what to expect. This then also gives you the ability to conciuosly brea
 rhytm to make a point or to point something out. Be conscientious with your story
 telling!
 
-#### Problems
+## Problems
 I very much hope that there will be no problems during the project, neither between your
 collaborative effort, nor with my supervision. For the latter, there is always the
 possibility to involve my supervisors (the two people also listed for the project), and
