@@ -328,11 +328,30 @@ Installing Git on Windows is straightforward:
 
 #### Mac 
 
-
 ### Setting it up
 
-Once you have it all installed, it is time to down
+Once you have it all installed, it is time open up Git bash where we will setup your github account:
+Set up an email adress for your github account if you haven't yet, follow these [instructions](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address) 
 
+```bash
+git config --global user.name "your account name"
+git config --global user.email "your email"
+git config --global credential.helper manager
+```
+
+Then we cd ("change directory") to a git folder, I recommend creating it in a convenient location such as the C drive on Windows:
+
+```bash
+cd c:
+mkdir github
+cd github
+git clone https://github.com/dagl1/MSP_p3_2026_hormone_cytokine_task_creation.git
+cd MSP_p3_2026_hormone_cytokine_task_creation
+git pull
+```
+Note that you will probably be asked to login in to your Github account at some point during this process, it will refer you to your browser where you login to your github account.
+
+All other times when you open up git bash, you just need to move to the repository folder. If you are in the c:/git/ folder, and you type MSP then press the "tab" key on your keyboard (above capslock typically), it should autocomplete to MSP_p3_2026_hormone_cytokine_task_creation and you press enter.
 
 ### How to use Git
 
@@ -342,17 +361,26 @@ your own device), and then after you make changes, you "push" (add changes the c
 directory). In this manner, everyone has a central repository, but can make changes
 independelty. When you and someone else make changes to the same file, you will be asked
 to make a concious decision on how to "merge" those changes. In addition there will be a
-complete history of all changes you all make to each file.
-
-### Git Bash
-
- - At the start of the day, 
+complete history of all changes you all make to each file. 
 
 ### Using git daily
 
- - At the start of the day, 
-
-
+ - Navigate to your repository folder
+ - Commit any changes if you made them since your last push:
+ ```bash
+ git add .
+ git commit -m "some message indicating what you added, these can be read back so put in the effort to write what you actually changed"
+ ```
+The "." in git add . means: add all files on this system
+Then, commit is like saying: yes these changes are what we are going to add, write a summary of the changes involved, and get ready to send them to the server (the github online in this case). 
+  - Alternatively, if you have changes but do not care about them (and want to just get latest version of the server), you can type git stash, which will store/stash your changes (they won't be deleted, but in most cases you won't look back to them).
+- You can only push (send to the sever) changes when you have the latest version of the online repository, so you must "pull" that latest version.
+- We can only pull if we don't have any open changes floating around, hence we first performed git add/commit or git stash, so that any changes we made are now already set in stone (or stored somewhere else in case you typed git stash). Now that we don't have any open changes, we can type ```bash git pull```. If you didn't make changes to a file someone else made changes too, then it will work wonderfully.
+  - It could also show you a different window where it asks you to commit merge changes. Just type something at the top (without #) and then press q, or ctrl+q, or shift+q.
+  - If you have changes to file X, but the online version also has changes to file X which are incompatible with yours, it will ask you to deal with this. Theoretically this should not happen as you shouldn't be editing files that other people edit (see below in [Project managagment](#project-management). If this does happen I, look-up or ask chatGPT on how to solve this. Generally it is quite simple in that you need to open the conflicting file, and find places with HEAD and many >>>>>>>>>>>>>>>. These places will show both versions of the file, and you remove one or the other, until no more >>>>>>>>> exist. Then you git commit these changes and the merge will work. This process is somehwat annoying and the first few times scared the hell out of me (and it took me a while to figure out). Don't panic, try to figture it out, ask others, or ask me. And since we are only working with small text files either way, it won't be too much of an issue if you just send the necessary files to other people directly - while you are resolving the issue, don't just stop using git after this happens!
+  - After you make changes, such as editing files and adding documentation, you need to go through the git add, git commit, git pull, git push process everytime. To see what changes exist you can type git diff (to see which files are changed, and which are ready to be committed).
+ 
+I know git is scary, but give it a real shot, and otherwise we can go through how to use it too. Even if you aren't going to do anything directly programming related, you will likely come in contact with it at some point in your career.
 
 ## Project management
 Instead of having a separate section explaining the choosing of a task and what to
@@ -694,6 +722,15 @@ then means you wasted the readers time), or you might believe the reader forgot 
 assumptions about your reader). If you do want to harkon back to something, you can
 always say: "as discussed earlier, topic X plays an important role in ... the current
 results further point to such a role".
+
+I recommend using a citation manager (I personally use Zotero, but any is fine) to add
+citations to your document. This is especially nice when you need to use a referencing
+style that uses numbers in text: you don't want to have to change the order of all the 
+citations because you add or remove single reference. Citations managers will do this 
+for you automatically. Similarly, if you need to change referencing style, the manager 
+will do so for you automatically. I do realise it might not work that well when writing
+a shared document, but as your BTR period follows directly after this, tip might be
+useful there even if you can't use it in a shared google docs.
 
 #### Report feedback
 I am somewhat stringent on what I consider good writing - note that I do not mean the
