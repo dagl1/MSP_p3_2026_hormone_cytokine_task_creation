@@ -1,4 +1,4 @@
-# Creating cytokine and peptide hormone-releasal metabolic tasks
+# Creating cytokine and peptide hormone-releasa metabolic tasks
 
 This document provides the infortation required to succesfully pursue the MSP project and therefore should be read carefully. 
 Following this document will hopefully ensure that you can deliver high quality research
