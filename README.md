@@ -1,4 +1,4 @@
-# Creating cytokine and peptide hormone-releasal metabolic tasks
+# Creating cytokine and peptide hormone-releasa metabolic tasks
 
 This document provides the infortation required to succesfully pursue the MSP project and therefore should be read carefully. 
 Following this document will hopefully ensure that you can deliver high quality research
@@ -150,7 +150,7 @@ metabolic modeling I work on requires all inputs and outputs at the end of the d
 match; this means that if we anywhere have CO2 going into the model, then somewhere CO2
 must leave the model as well. Alternatively it can combine with other metabolites, or
 split into smaller pieces. So if 2 H20 and 2 CO2 goes in, then after some metabolic
-reactions one could get 2 HCO3. This "what goes in, must go out" assumption is called
+reactions one could get 2 H2CO3. This "what goes in, must go out" assumption is called
 Steady State, and it allows us to simplify a lot of mathematics. 
 
 Why is that relevant for you to know? Because when you build a task, you need to make
